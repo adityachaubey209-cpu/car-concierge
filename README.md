@@ -101,15 +101,3 @@ These are gaps I shipped with on purpose so we'd ship a tight MVP rather than a 
 - **5 RPM on `gemini-2.5-flash`** if you override the default — rapid testing can hit it. Default `flash-lite` has 30 RPM.
 - **No persistence** — refresh = empty state.
 
-## With another 4 hours
-
-1. **Image thumbnails per car** — one hero shot, lazy-loaded. The single biggest decision-driver buyers actually use.
-2. **Add `make` + `transmission` to the tool schema** — closes the two filter gaps above.
-3. **Share-a-shortlist URL** — encode the compare list + chat into a URL param. Powerful for buyers showing their family.
-4. **Voice input** — Web Speech API. *"Tell me what you want"* maps perfectly to speaking.
-5. **Eval harness** — 20 synthetic user briefs with golden top-3 cars. Run on every system-prompt or scoring change. Would catch regressions any future-me introduces.
-6. **Mobile compare polish** — the sheet works but the 3-column grid is cramped on phones; would switch to a swipe-between-cars carousel.
-
----
-
-_Built with Cursor (composer-2.5-fast). AI provider in production: Gemini 2.5 Flash-Lite. Repo: `github.com/your-handle/car-concierge`._
