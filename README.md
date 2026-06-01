@@ -6,8 +6,7 @@
 
 ## Live demo
 
-- **App:** <https://YOUR-DEPLOY-URL.vercel.app> _(replace before submitting)_
-- **Build recording:** <https://loom.com/YOUR-LOOM-LINK> _(replace before submitting)_
+- **App:** [<https://YOUR-DEPLOY-URL.vercel.app>](https://car-concierge-pink.vercel.app/) _(replace before submitting)_
 
 ## What it does
 
