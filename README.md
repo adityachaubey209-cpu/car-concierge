@@ -6,7 +6,7 @@
 
 ## Live demo
 
-- **App:** [<Car concierge>](https://car-concierge-pink.vercel.app/) _(replace before submitting)_
+- **App:** [<[Car concierge](https://car-concierge-pink.vercel.app/)>](https://car-concierge-pink.vercel.app/) _(replace before submitting)_
 
 ## What it does
 
