@@ -6,7 +6,7 @@
 
 ## Live demo
 
-- **App:** [<[Car concierge](https://car-concierge-pink.vercel.app/)>]
+- **App:** [Car concierge](https://car-concierge-pink.vercel.app/)
 
 ## What it does
 
