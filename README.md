@@ -93,11 +93,3 @@ The client uses `useChat` from `@ai-sdk/react` over a `DefaultChatTransport` to 
 
 **Where AI got in the way:** every model I tried wanted to over-engineer — suggested Postgres, suggested file-based mocking, suggested abstract message-bus patterns. I had to actively cut. The brief explicitly punishes that and they were right to.
 
-## Known edge gaps (honest list)
-
-These are gaps I shipped with on purpose so we'd ship a tight MVP rather than a half-finished one:
-- **Tool has no `make` or `transmission` filter** — *"show me only Tata cars"* / *"only automatic"* falls back to Gemini answering in text. Adding fields to the Zod schema is a 5-minute change.
-- **No image thumbnails** — cards are text-only. Catalog has no image URLs.
-- **5 RPM on `gemini-2.5-flash`** if you override the default — rapid testing can hit it. Default `flash-lite` has 30 RPM.
-- **No persistence** — refresh = empty state.
-
